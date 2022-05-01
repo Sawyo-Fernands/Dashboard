@@ -1,0 +1,53 @@
+
+
+
+.table{
+    padding: 1.5rem 1rem;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 0.5rem;
+    color: #25282B;
+
+    h2{
+        margin-bottom: 2rem;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        overflow:auto;
+
+      }
+      
+      th, td {
+        text-align: center;
+        padding: 8px;
+
+        a{
+            text-decoration: none;
+            color: #3374AB;
+        }
+      }
+      
+      tr:nth-child(even) {background-color: #FAFAFA}
+
+      .header-table{
+          background-color: #FAFAFA;
+      }
+
+      .pagination{
+          margin-top: 0.5rem;
+        margin-left: 2%;
+          button{
+              padding: 0.7rem 1rem;
+              border: 0;
+              border-radius: 0.25rem;
+            font-weight: bold;
+              
+          }
+          button:first-child{
+            margin-right: 1rem;
+        }
+      }
+}
+

@@ -1,0 +1,45 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+    .search{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        height: 3rem;
+        width: 350px;
+        border: 1px solid transparent;
+        border-radius: 6rem;
+        padding: 0.5rem 0.8rem;
+
+        img{
+            width: 15px;
+            height: 15px;
+            margin-right: 0.3rem;
+        }
+        input{
+            height: 80%;
+            width: 100%;
+            outline: none;
+            border: 0;
+            margin-right: 0.2rem;
+        }
+    }
+    .user{
+        display: flex;
+        gap: 1rem;
+        img{
+           height: 70%;
+
+           
+        }
+        img:last-child{
+            border: 1px solid gray;
+            border-radius: 6rem;
+        }
+        
+    }
+}

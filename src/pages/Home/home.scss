@@ -1,0 +1,22 @@
+
+
+#ContentContainer{
+    margin-left: 18rem;
+    padding: 1.75rem 2.25rem;
+}
+
+.cards{
+    display: flex;
+    gap: 3rem;
+   
+}
+.tableContainer{
+    margin-top: 1rem;
+}
+
+@media(max-width:1288px){
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+}

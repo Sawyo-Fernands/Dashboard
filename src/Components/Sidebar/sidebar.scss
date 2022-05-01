@@ -1,0 +1,62 @@
+
+
+.menu{
+    position: fixed;
+    width: 18rem;
+    height: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+
+    aside{
+        padding: 4rem 0rem 2rem 4rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h1{
+            font-size: 3rem;
+            color: #52575C;
+            font-weight: bold;
+        }
+
+        #sidebar{
+            margin-top: 4rem;
+
+            ul{
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 3rem;
+
+                li{
+                    
+
+                    a{
+                        text-decoration: none;
+                        color: #52575C;
+                        font-size: 1.244rem;
+                    font-weight: bold;
+                    display: flex;
+                    gap: 0.2rem;
+                    align-items: center;
+                    }
+                }
+            }
+        }
+        #logout{
+            margin-top: auto;
+
+            button{
+                outline: none;
+                border: 0;
+                background-color: transparent;
+                font-size: 1.244rem;
+                font-weight: bold;
+                display: flex;
+                gap: 0.3rem;
+                align-items: center;
+            }
+        }
+    }
+}
